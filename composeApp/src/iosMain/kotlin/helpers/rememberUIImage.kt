@@ -28,5 +28,5 @@ fun rememberUIImage(
         uiImage = uiImage.imageWithRenderingMode(UIImageRenderingMode.UIImageRenderingModeAlwaysTemplate)
     }
 
-    uiImage
+    uiImagete
 }

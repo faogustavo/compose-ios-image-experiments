@@ -2,6 +2,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import org.jetbrains.skia.ColorType
 
 @Composable
 expect fun PlatformImage(
@@ -17,6 +18,7 @@ expect fun PlatformResourceImage(
     tint: Color? = null,
     contentScale: ContentScale = ContentScale.Fit,
     modifier: Modifier = Modifier,
+    colorType: ColorType? = null,
 )
 
 sealed class Image {
